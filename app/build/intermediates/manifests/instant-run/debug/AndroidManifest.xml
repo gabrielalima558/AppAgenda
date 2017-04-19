@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.agenda.agenda"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.agenda.agenda.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.agenda.agenda.NovoContatoActivity"
+            android:label="@string/title_activity_novo_contato"
+            android:parentActivityName="br.com.agenda.agenda.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.agenda.agenda.MainActivity" />
+        </activity>
+        <activity
+            android:name="br.com.agenda.agenda.DetalhesActivity"
+            android:label="@string/title_activity_detalhes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="br.com.agenda.agenda.EditarActivity"
+            android:label="@string/title_activity_editar"
+            android:parentActivityName="br.com.agenda.agenda.DetalhesActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.agenda.agenda.DetalhesActivity" />
+        </activity>
+    </application>
+
+</manifest>

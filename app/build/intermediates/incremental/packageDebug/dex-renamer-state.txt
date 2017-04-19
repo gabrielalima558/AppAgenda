@@ -1,0 +1,7 @@
+#Tue Feb 14 16:36:00 BRST 2017
+base.0=C\:\\Users\\15251367\\Projects\\Agenda\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_65890fd3a4d798e2637274599977183fd0ffaa51
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\15251367\\Projects\\Agenda\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2a39ddf24e895627b596011d560593a15fbd5d70\\classes.dex
+base.1=C\:\\Users\\15251367\\Projects\\Agenda\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2a39ddf24e895627b596011d560593a15fbd5d70
+file.0=C\:\\Users\\15251367\\Projects\\Agenda\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_65890fd3a4d798e2637274599977183fd0ffaa51\\classes.dex
